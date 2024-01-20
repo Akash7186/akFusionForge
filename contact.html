@@ -1,0 +1,157 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akash BTECH</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Ubuntu:wght@300;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"> -->
+
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <!-- <a href="index.html"><img src="images/logo.png"></a> -->
+            <div class="nav-links" id="navLinks">
+
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <!-- <i class="fa-solid fa-bars" onclick="hideMenu()"></i> -->
+                
+                
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">Events</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+            <!-- <i class="fa-solid fa-xmark" onclick="showMenu()"></i> -->
+        </nav>  
+        <h1>Contact me</h1> 
+
+    </section>
+
+    <!-- -----contact me----- -->
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3839.495963775932!2d74.46085917419033!3d15.777781347176171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbf6589aaaaaaa9%3A0xce6d455b3335886!2sVisvesvaraya%20Technological%20University%20(VTU)!5e0!3m2!1sen!2sin!4v1701101348464!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+
+    <section class="contact-us">
+
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>Jnana Sangama, VTU Main Road Machhe</h5>
+                        <p>Belagavi, Karnataka , INDIA</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+91 8073422052</h5>
+                        <p>Belagavi, Karnataka , INDIA</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>abh7186@gmail.com</h5>
+                        <p>Email us your query</p>
+                    </span>
+                </div>
+            </div>
+<div class="contact-col">
+
+        <form action="form-handler.php" method="post">
+            <input type="text" name="name" placeholder="Enter your name" required>
+            <input type="email" name="email" placeholder="Enter Email Address" required>
+            <input type="text" name="subject" placeholder="Enter your class" required>
+            <textarea rows="8" placeholder="Message" required></textarea>
+            <button type="submit" name="message" class="hero-btn red-btn">Send Message</button>
+
+        </form>
+
+
+
+ </div>
+        </div>
+        
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ------fotter -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Elevating events with a fusion of technical prowess and collaborative excellence. Our focus on seamless<br>communication ensures impactful and innovative experiences for all participants.</p>
+            <div class="icons">
+
+                <a href="https://www.linkedin.com/in/akash-bhajantri-a5165b246/" target="_blank">
+                    <i class="fa fa-LinkedIn"></i>
+                </a>
+
+                <!-- <i class="fa fa-facebook"></i> -->
+                <a href="https://x.com/AkashAk73983061?s=09" target="_blank">
+                    <i class="fa fa-Twitter"></i>
+                </a>    
+
+                <a href="https://www.instagram.com/?utm_source=pwa_homescreen&__pwa=1" target="_blank">
+                    <i class="fa fa-Instagram"></i>
+                </a>
+
+                <!-- <a href="mailto:akashbh1235@gmail.com" target="_blank">
+                    <i class="fa fa-envelope"></i>
+
+                </a> -->
+            </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ------------Javascript for toggle menu -->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>

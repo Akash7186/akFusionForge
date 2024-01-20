@@ -1,0 +1,239 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FusionForge</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Ubuntu:wght@300;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"> -->
+
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <!-- <a href="index.html"><img src="images/logo.png"></a> -->
+            <div class="nav-links" id="navLinks">
+
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <!-- <i class="fa-solid fa-bars" onclick="hideMenu()"></i> -->
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">Events</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+            <!-- <i class="fa-solid fa-xmark" onclick="showMenu()"></i> -->
+            
+            
+        </nav>
+
+<div class="text-box">
+    <h1>FusionForge</h1>
+    <p>In the realm of education, BTECH shines as a pathway that values practical skills and <br>real-world application, turning knowledge into optimal solutions.</p>
+
+
+    <div class="popup" id="popup-1">
+        <div class="overlay"></div>
+        <div class="content">
+            <div class="close-btn" onclick="togglePopup()">&times;</div>
+            <h1>Know More</h1>
+            <p>B.Tech in Computer Science and Business System, a dynamic fusion of technology and business acumen, promises unparalleled value. With cutting-edge skills, graduates navigate high-demand industries, ensuring a future of innovation and success.</p>
+
+        </div>
+    </div>
+
+    <!-- <button onclick="togglePopup()">Visit for More</button> -->
+
+
+
+
+    <!-- <a href="" class="hero-btn">Vist for know More </a> -->
+</div>
+
+    </section>
+
+    <!-- -------course -->
+    <section class="course">
+        <h1>We_Are</h1>
+        <p>At Visvesvaraya Technological University Belagavi, we're orchestrating a blend of impactful events, including technical sessions and motivational speeches. <br> Led by Aiden, Noah, Penelope, and our dynamic team, these gatherings promise inspiration and skill enrichment. <br> Join us for a transformative experience!</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Organization</h3>
+                <p>Join us at Visvesvaraya Technological University Belagavi for dynamic events curated by Aiden, Noah, Penelope, and our team. We blend technical prowess with creative innovation, creating impactful and memorable gatherings. Your participation shapes extraordinary experiences, fostering collaboration and community engagement. Together, let's create lasting memories and elevate the college experience through shared enthusiasm and success.
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Technical</h3>
+                <p>Join us at Visvesvaraya Technological University Belagavi for a cutting-edge technological journey. Aiden, Noah, Penelope, and our visionary team are crafting innovative events that redefine the landscape of innovation. Your active involvement transforms these events into unparalleled experiences. Join us in shaping the future of technology, where every moment is an opportunity to transcend boundaries and ignite intellectual curiosity.
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>collaborative&communication</h3>
+                <p>Join us at Visvesvaraya Technological University Belagavi for transformative events led by Aiden, Noah, Penelope, and our dedicated team. Engage in sessions crafted for personal and professional growth. Your active participation is crucial in shaping these dynamic forums for inspiration and refined communication skills. Join us on a journey of self-discovery and skill development with motivational speakers and communication experts.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ------------campus -->
+
+    <!-- <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipising elit.</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/kalli1.jpg" alt="">
+                <div class="layer">
+                    <h3>Kalli Sirsi</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/kalli2.jpg" alt="">
+                <div class="layer">
+                    <h3>Kalli Sirsi</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/washington.png" alt="">
+                <div class="layer">
+                    <h3>VTU</h3>
+                </div>
+            </div>
+        </div>
+
+
+    </section> -->
+
+    <!-- -------My Intrest -->
+    <section class="facilities">
+        <h1>Our Goals</h1>
+        <p>Organizing events, especially in technology and collaboration, demands meticulous planning and clear communication. Technical events require <br>expertise and coordination, while collaborative events emphasize teamwork. Successful organization relies on attention <br>to detail and effective communication to create impactful experiences.</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/ev5.jpg">
+                <h3>Organizing Events</h3>
+                <p> Event organization demands meticulous planning and coordination for a seamless and memorable experience, emphasizing effective communication and attention to detail. </p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/tech2.jpg">
+                <h3>Technical Events</h3>
+                <p>Technical events highlight innovation and expertise, providing a platform for knowledge exchange and industry collaboration.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/commun2.jpg">
+                <h3>Collaborative&Communication</h3>
+                <p>Collaboration and communication form the foundation of success, fostering teamwork, streamlined information flow, and collective achievement. </p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- ------testimonials -->
+
+    <section class="testimonials">
+        <h1>Friends rivews</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipising elit.</p>
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="images/user1.jpg">
+                <div>
+                    <p>jssnhbvhbshbvsvjvavvh jvabhhhhabhja hjbsssbc dbvhwhdbhvs havh
+                        bsacbhcjdba nknsdvjsak jnsafiaf njkasnsjjsa nsaajjjjjjkjaj
+                        dhahfjdjaa.</p>
+                        <h3>K Nagesh</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+            <div class="testimonial-col">
+                <img src="images/akash1.jpg">
+                <div>
+                    <p>jssnhbvhbshbvsvjvavvh jvabhhhhabhja hjbsssbc dbvhwhdbhvs havh
+                        bsacbhcjdba nknsdvjsak jnsafiaf njkasnsjjsa nsaajjjjjjkjaj
+                        dhahfjdjaa.</p>
+                        <h3>David Benki</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- ------Call To Action -->
+    <section class="cta">
+        <h1>Contact us for any inquiries or assistance. <br> Always here to help!</h1>
+        <a href="ph:+91 8073422052" class="hero-btn">CONTACT ME</a>
+    </section>
+
+    <!-- ------fotter -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Elevating events with a fusion of technical prowess and collaborative excellence. Our focus on seamless<br>communication ensures impactful and innovative experiences for all participants.</p>
+            <div class="icons">
+
+                <a href="https://www.linkedin.com/in/akash-bhajantri-a5165b246/" target="_blank">
+                    <i class="fa fa-LinkedIn"></i>
+                </a>
+
+                <!-- <i class="fa fa-facebook"></i> -->
+                <a href="https://x.com/AkashAk73983061?s=09" target="_blank">
+                    <i class="fa fa-Twitter"></i>
+                </a>    
+
+                <a href="https://www.instagram.com/?utm_source=pwa_homescreen&__pwa=1" target="_blank">
+                    <i class="fa fa-Instagram"></i>
+                </a>
+
+                <!-- <a href="mailto:abh7186@gmail.com" target="_blank">
+                    <i class="fa fa-envelope"></i>
+
+                </a> -->
+            </div>
+    </section>
+
+    <script src="script.js"></script>
+
+
+
+
+
+
+
+
+
+
+    <!-- ------------Javascript for toggle menu -->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>
